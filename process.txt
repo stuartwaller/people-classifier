@@ -1,0 +1,34 @@
+=~~~~=Boriana Video Annotations=~~~~=
+
+GENERAL---------------------------------------------------------------------------------------------------
+- 2:16 | 136 seconds 
+- used 'Free Video to JPG Converter' to extract all frames from video (each frame numerically labeled)
+  from directory.py, we see this video has 4136 frames
+- 4136 / 136 = ~30 (FPS)
+
+IDENTICAL TIME INTERVALS (seconds)------------------------------------------------------------------------
+
+*based on first glimpse of person* 
+no people | 0:00:00 - 0:00:05 |
+people    | 0:00:06 - 0:00:39 |
+no people | 0:00:40 - 0:00:42 |
+people    | 0:00:43 - 0:02:03 |
+no people | 0:02:04 - 0:02:16 |
+
+*most of person visible*
+no people | 0:00:00 - 0:00:05 |
+people    | 0:00:06 - 0:00:39 |
+no people | 0:00:40 - 0:00:42 |
+people    | 0:00:43 - 0:02:03 |
+no people | 0:02:04 - 0:02:16 |
+
+FRAME INTERVALS--------------------------------------------------------------------------------------------
+for *most of person visible*: 
+- frame interval [1-204] = no people
+- frame interval [205 - 1175] = people
+ - 205/30 = ~6.83, 1175, 1175/30 = ~39.16 (frame intervals align with second intervals)
+- frame interval [1176 - 1319] = no people
+- frame interval [1320 - 3690] = people
+- frame interval [3691 - 4136] = no people
+
+
